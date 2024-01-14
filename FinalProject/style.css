@@ -1,0 +1,184 @@
+/*
+selector {
+  property: value; 
+  }
+*/
+body{
+    background-color: #eedfd2;
+    color: #3f3631; 
+  }
+  
+  p{
+    text-indent: 5%; 
+  }
+  
+  .bg{
+      background-color: #4b3535;
+  }
+  
+  #quote{
+    font-size: 25pt; 
+    text-align: center; 
+    margin-left: 115px; 
+    margin-right: 115px; 
+    padding: 20px; 
+    color: white; 
+  }
+  
+  h1{
+    display: block;
+    text-align: center;
+    font-size: 40pt; 
+    text-decoration: none;
+  }
+  
+  h2{
+    font-size: 30pt;
+    text-align: center; 
+  }
+  
+  .heading{
+    text-decoration: none;
+    color: #3f3631;
+  }
+  
+  a:not(.heading){
+    color: #924f4f;
+  }
+  
+  /* .images{
+    width: 40%;
+    text-align: center; 
+  } */
+  
+  .imgSet{
+    width: 50%;
+  }
+
+  img {
+    border: 4px double #3f3631; 
+  }
+  
+  .cabin1{
+    text-align: center;
+  }
+  
+  #img1{
+    width: 40%;
+  }
+  
+  .nav {
+    text-align: center;
+    background-color:#765b5b;
+    height: 59.2px;
+  }
+  
+  .nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #765b5b;
+    font-size: 20pt; 
+    display: inline-block;
+  }
+  
+  .nav li{
+    float: left;
+    text-align: center;
+  }
+  
+  .nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none; 
+  }
+  
+  .nav li a:hover:not(.active) {
+    background-color: #604848;
+  }
+  
+  .active {
+    background-color: #b18b8b;
+  }
+  
+  .sources{
+    font-size: 20pt; 
+  }
+  
+  #description{
+    font-size: 20pt;
+    text-align: center; 
+  }
+  
+  .flexbox {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .ancestry{
+    text-align: center; 
+  /*   float: right; */
+    clear:both;
+  /*   margin-left: 100px;  */
+    width: 350%;
+  }
+  
+  #img2{
+    width: 50%;
+  /*   text-align: center;  */
+  /*   margin-left: 100px;  */
+  }
+  
+  .body1{
+    font-size: 20pt; 
+    margin: 50px; 
+  /*   text-indent: 5%; */
+    padding: 20px; 
+    border: 4px double #504444; 
+  }
+  
+  .flexbox2 {
+    display: flex;
+    align-items: center; 
+  }
+  
+  
+  .newspaper{
+    text-align: center; 
+    clear:both;
+    padding: 10px; 
+    width: 450%; 
+  }
+  
+  .img3{
+    width: 60%; 
+  }
+  
+  .body2{
+    font-size: 18pt;
+    margin: 50 px; 
+    padding: 20px; 
+    border: 4px double #504444; 
+  /*   text-indent: 5%; */
+  }
+  
+  /* .cabin2{
+    text-align: center;
+    float: right;
+  }
+   */
+  /* .img4{
+    width: 30%;
+  }
+   */
+  
+  .body3{
+    font-size: 20pt;
+    margin: 50px; 
+    border: 4px double #504444; 
+    padding: 20px;
+  /*   text-indent: 5%; */
+  }
